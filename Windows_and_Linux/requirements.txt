@@ -1,0 +1,10 @@
+darkdetect
+google-genai
+openai
+pyperclip
+pynput
+PySide6
+markdown2
+pyinstaller
+ollama
+

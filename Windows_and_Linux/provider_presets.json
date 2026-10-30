@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "source": "Curated from https://models.dev/api.json",
+  "updated": "2026-10-25",
+  "presets": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "base_url": "https://api.openai.com/v1",
+      "model": "gpt-6-luna",
+      "key_url": "https://platform.openai.com/api-keys",
+      "docs_url": "https://platform.openai.com/docs",
+      "note": "Official OpenAI API."
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "model": "moonshotai/kimi-k3.1-pro",
+      "key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs",
+      "note": "One key for many models."
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "base_url": "https://api.groq.com/openai/v1",
+      "model": "qwen/qwen3.8-27b",
+      "key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs",
+      "note": "Fast hosted inference."
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-flash",
+      "key_url": "https://platform.deepseek.com/api_keys",
+      "docs_url": "https://api-docs.deepseek.com",
+      "note": "Low-cost chat and reasoning models."
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "base_url": "https://api.mistral.ai/v1",
+      "model": "mistral-large-4",
+      "key_url": "https://console.mistral.ai/api-keys",
+      "docs_url": "https://docs.mistral.ai",
+      "note": "Mistral hosted models."
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "base_url": "https://api.x.ai/v1",
+      "model": "grok-4.7",
+      "key_url": "https://console.x.ai",
+      "docs_url": "https://docs.x.ai",
+      "note": "Grok models."
+    },
+    {
+      "id": "together",
+      "name": "Together AI",
+      "base_url": "https://api.together.xyz/v1",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "key_url": "https://api.together.ai/settings/api-keys",
+      "docs_url": "https://docs.together.ai",
+      "note": "Open models hosted together."
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "base_url": "https://api.cerebras.ai/v1",
+      "model": "qwen-3.8-27b",
+      "key_url": "https://cloud.cerebras.ai",
+      "docs_url": "https://inference-docs.cerebras.ai",
+      "note": "Very fast hosted inference."
+    },
+    {
+      "id": "fireworks",
+      "name": "Fireworks AI",
+      "base_url": "https://api.fireworks.ai/inference/v1",
+      "model": "accounts/fireworks/models/minimax-m3p1-flash",
+      "key_url": "https://fireworks.ai/account/api-keys",
+      "docs_url": "https://docs.fireworks.ai",
+      "note": "Hosted open models."
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "base_url": "https://api.perplexity.ai",
+      "model": "sonar",
+      "key_url": "https://www.perplexity.ai/settings/api",
+      "docs_url": "https://docs.perplexity.ai",
+      "note": "Search-grounded answers."
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "key_url": "https://build.nvidia.com",
+      "docs_url": "https://docs.nvidia.com/nim",
+      "note": "NVIDIA hosted models."
+    },
+    {
+      "id": "nebius",
+      "name": "Nebius",
+      "base_url": "https://api.tokenfactory.nebius.com/v1",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "key_url": "https://tokenfactory.nebius.com",
+      "docs_url": "https://docs.nebius.com",
+      "note": "Token Factory hosted models."
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "base_url": "https://router.huggingface.co/v1",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "key_url": "https://huggingface.co/settings/tokens",
+      "docs_url": "https://huggingface.co/docs/inference-providers",
+      "note": "Inference Providers router."
+    }
+  ]
+}
